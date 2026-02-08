@@ -80,7 +80,7 @@ export const QuestionRow: React.FC<QuestionRowProps> = ({ question, topicId, sub
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -10 }}
-        className={`group relative flex items-center gap-3 px-4 py-3 bg-white rounded-lg border border-gray-200 hover:border-primary-300 hover:shadow-md transition-all duration-200 ${
+        className={`group relative flex items-center gap-3 px-4 py-3 bg-white rounded-lg border border-gray-200 hover:border-[#e57407] hover:shadow-md transition-all duration-200 ${
           isDragging ? 'opacity-50 shadow-xl z-50' : ''
         } ${question.completed ? 'bg-green-50/50' : ''}`}
       >

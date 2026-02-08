@@ -123,7 +123,7 @@ export const TopicCard: React.FC<TopicCardProps> = ({ topic }) => {
 
             {/* Content */}
             <div className="flex-1 min-w-0">
-              <h2 className="text-2xl font-bold text-white mb-1 truncate">
+              <h2 className="text-xl font-bold text-white mb-1 truncate">
                 {topic.title}
               </h2>
               {topic.description && (
