@@ -11,7 +11,7 @@ import {
 } from '@dnd-kit/core';
 import {
   SortableContext,
-  arrayMove,
+ 
   verticalListSortingStrategy,
 } from '@dnd-kit/sortable';
 import { Plus, BookOpen, TrendingUp } from 'lucide-react';
@@ -24,11 +24,14 @@ import { Button } from '../components/common/Button';
 import { Modal } from '../components/common/Modal';
 import { Input } from '../components/common/Input';
 import { useForm } from 'react-hook-form';
+import { SubTopic } from '../types';
 
 interface TopicFormData {
   title: string;
   description: string;
 }
+
+
 
 export const SheetPage: React.FC = () => {
   const dispatch = useDispatch();
@@ -114,7 +117,13 @@ export const SheetPage: React.FC = () => {
   };
 
   const handleAddTopic = (data: TopicFormData) => {
-    dispatch(addTopic(data));
+    ///
+
+    const newTopic = {
+      ...data,
+      subtopics: [] as SubTopic[],
+    };
+    dispatch(addTopic(newTopic));
     reset();
     setIsAddTopicModalOpen(false);
   };

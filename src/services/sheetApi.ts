@@ -18,7 +18,7 @@ export const sheetApi = {
   },
 
   // Mock CRUD operations (since no database is required)
-  async createTopic(sheetId: string, topicData: any): Promise<any> {
+  async createTopic(_sheetId: string, topicData: any): Promise<any> {
     // Mock API call - in real scenario, this would POST to server
     console.log('Creating topic:', topicData);
     return Promise.resolve({ id: `topic-${Date.now()}`, ...topicData });
@@ -36,7 +36,7 @@ export const sheetApi = {
     return Promise.resolve();
   },
 
-  async createSubTopic(topicId: string, subtopicData: any): Promise<any> {
+  async createSubTopic(_topicId: string, subtopicData: any): Promise<any> {
     console.log('Creating subtopic:', subtopicData);
     return Promise.resolve({ id: `subtopic-${Date.now()}`, ...subtopicData });
   },
@@ -51,7 +51,7 @@ export const sheetApi = {
     return Promise.resolve();
   },
 
-  async createQuestion(subtopicId: string, questionData: any): Promise<any> {
+  async createQuestion(_subtopicId: string, questionData: any): Promise<any> {
     console.log('Creating question:', questionData);
     return Promise.resolve({ id: `q-${Date.now()}`, ...questionData });
   },
