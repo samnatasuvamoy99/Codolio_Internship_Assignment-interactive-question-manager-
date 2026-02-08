@@ -1,12 +1,15 @@
 <<<<<<< HEAD
 # Codolio_Internship_Assignment-interactive-question-manager-
 ======= Header Section 
+
 ![image alt](https://github.com/samnatasuvamoy99/Codolio_Internship_Assignment-interactive-question-manager-/blob/66da69fa08c6e73031b50f5be30908f6b1229244/Screenshot%202026-02-08%20235554.png)
 
 ========= Body
-![image alt](https://github.com/samnatasuvamoy99/Codolio_Internship_Assignment-interactive-question-manager-/blob/b877220b32e7fbe25324ed14e07775ff18939c22/Question_Tropic.png)
+
+![image alt](https://github.com/samnatasuvamoy99/Codolio_Internship_Assignment-interactive-question-manager-/blob/8d4a41a8e3d76976d0823cfb5d2874da9a8ddc6d/Main_Page.png)
 
 ========== Question ui
+
 ![image alt](https://github.com/samnatasuvamoy99/Codolio_Internship_Assignment-interactive-question-manager-/blob/b877220b32e7fbe25324ed14e07775ff18939c22/Question_Tropic.png)
 # Question Tracker - Interactive DSA Question Management System
 
