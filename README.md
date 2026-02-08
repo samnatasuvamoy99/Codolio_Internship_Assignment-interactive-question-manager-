@@ -1,10 +1,16 @@
 <<<<<<< HEAD
 # Codolio_Internship_Assignment-interactive-question-manager-
-=======
-![image alt](https://github.com/samnatasuvamoy99/Codolio_Internship_Assignment-interactive-question-manager-/blob/997be27255cafed98f80dd6ecce84a575d59256a/Screenshot%202026-02-08%20214630.png)
+======= Header Section 
 
-==========
-![image alt](https://github.com/samnatasuvamoy99/Codolio_Internship_Assignment-interactive-question-manager-/blob/2ad0f49675c89274e1be15947f27e963f0da61ad/Screenshot%202026-02-08%20214707.png)
+![image alt](https://github.com/samnatasuvamoy99/Codolio_Internship_Assignment-interactive-question-manager-/blob/66da69fa08c6e73031b50f5be30908f6b1229244/Screenshot%202026-02-08%20235554.png)
+
+========= Body
+
+![image alt](https://github.com/samnatasuvamoy99/Codolio_Internship_Assignment-interactive-question-manager-/blob/8d4a41a8e3d76976d0823cfb5d2874da9a8ddc6d/Main_Page.png)
+
+========== Question ui
+
+![image alt](https://github.com/samnatasuvamoy99/Codolio_Internship_Assignment-interactive-question-manager-/blob/b877220b32e7fbe25324ed14e07775ff18939c22/Question_Tropic.png)
 # Question Tracker - Interactive DSA Question Management System
 
 A modern, feature-rich web application for managing hierarchical DSA (Data Structures & Algorithms) questions organized by topics and subtopics. Built with React, TypeScript, Redux Toolkit, and dnd-kit for seamless drag-and-drop functionality.
@@ -14,16 +20,16 @@ A modern, feature-rich web application for managing hierarchical DSA (Data Struc
 ![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-2.0.1-purple)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.1-cyan)
 
-## ✨ Features
+##  Features
 
 ### Core Functionality
-- ✅ **Topic Management**: Create, edit, and delete topics with descriptions
-- ✅ **SubTopic Organization**: Nested subtopics within topics for better organization
-- ✅ **Question Tracking**: Add questions with difficulty levels, links, and video solutions
-- ✅ **Drag & Drop Reordering**: Intuitive drag-and-drop for topics, subtopics, and questions
-- ✅ **Progress Tracking**: Visual progress indicators at topic and overall levels
-- ✅ **Expand/Collapse**: Smooth animations for expanding/collapsing sections
-- ✅ **Completion Status**: Mark questions as completed with visual feedback
+-  **Topic Management**: Create, edit, and delete topics with descriptions
+- **SubTopic Organization**: Nested subtopics within topics for better organization
+- **Question Tracking**: Add questions with difficulty levels, links, and video solutions
+- **Drag & Drop Reordering**: Intuitive drag-and-drop for topics, subtopics, and questions
+-  **Progress Tracking**: Visual progress indicators at topic and overall levels
+-  **Expand/Collapse**: Smooth animations for expanding/collapsing sections
+-  **Completion Status**: Mark questions as completed with visual feedback
 
 ### User Experience
 -  **Modern UI**: Clean, professional design with Tailwind CSS
@@ -173,7 +179,7 @@ yarn preview
 - Click edit to modify details
 - Click delete to remove (with confirmation)
 
-## 🎨 Design Philosophy
+##  Design Philosophy
 
 The application follows a **modern, professional aesthetic** with:
 
@@ -183,7 +189,7 @@ The application follows a **modern, professional aesthetic** with:
 - **Visual Hierarchy**: Clear distinction between topics, subtopics, and questions
 - **Progress Visualization**: Circular progress indicators and linear progress bars
 
-## 🔧 API Integration
+##  API Integration
 
 The app includes a service layer (`sheetApi.ts`) with:
 
