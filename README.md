@@ -1,10 +1,13 @@
 <<<<<<< HEAD
 # Codolio_Internship_Assignment-interactive-question-manager-
-=======
+======= Header Section 
 ![image alt](https://github.com/samnatasuvamoy99/Codolio_Internship_Assignment-interactive-question-manager-/blob/66da69fa08c6e73031b50f5be30908f6b1229244/Screenshot%202026-02-08%20235554.png)
 
-==========
-![image alt](https://github.com/samnatasuvamoy99/Codolio_Internship_Assignment-interactive-question-manager-/blob/2ad0f49675c89274e1be15947f27e963f0da61ad/Screenshot%202026-02-08%20214707.png)
+========= Body
+![image alt](https://github.com/samnatasuvamoy99/Codolio_Internship_Assignment-interactive-question-manager-/blob/b877220b32e7fbe25324ed14e07775ff18939c22/Question_Tropic.png)
+
+========== Question ui
+![image alt](https://github.com/samnatasuvamoy99/Codolio_Internship_Assignment-interactive-question-manager-/blob/b877220b32e7fbe25324ed14e07775ff18939c22/Question_Tropic.png)
 # Question Tracker - Interactive DSA Question Management System
 
 A modern, feature-rich web application for managing hierarchical DSA (Data Structures & Algorithms) questions organized by topics and subtopics. Built with React, TypeScript, Redux Toolkit, and dnd-kit for seamless drag-and-drop functionality.
