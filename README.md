@@ -20,16 +20,16 @@ A modern, feature-rich web application for managing hierarchical DSA (Data Struc
 ![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-2.0.1-purple)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.1-cyan)
 
-## ✨ Features
+##  Features
 
 ### Core Functionality
-- ✅ **Topic Management**: Create, edit, and delete topics with descriptions
-- ✅ **SubTopic Organization**: Nested subtopics within topics for better organization
-- ✅ **Question Tracking**: Add questions with difficulty levels, links, and video solutions
-- ✅ **Drag & Drop Reordering**: Intuitive drag-and-drop for topics, subtopics, and questions
-- ✅ **Progress Tracking**: Visual progress indicators at topic and overall levels
-- ✅ **Expand/Collapse**: Smooth animations for expanding/collapsing sections
-- ✅ **Completion Status**: Mark questions as completed with visual feedback
+-  **Topic Management**: Create, edit, and delete topics with descriptions
+- **SubTopic Organization**: Nested subtopics within topics for better organization
+- **Question Tracking**: Add questions with difficulty levels, links, and video solutions
+- **Drag & Drop Reordering**: Intuitive drag-and-drop for topics, subtopics, and questions
+-  **Progress Tracking**: Visual progress indicators at topic and overall levels
+-  **Expand/Collapse**: Smooth animations for expanding/collapsing sections
+-  **Completion Status**: Mark questions as completed with visual feedback
 
 ### User Experience
 -  **Modern UI**: Clean, professional design with Tailwind CSS
@@ -179,7 +179,7 @@ yarn preview
 - Click edit to modify details
 - Click delete to remove (with confirmation)
 
-## 🎨 Design Philosophy
+##  Design Philosophy
 
 The application follows a **modern, professional aesthetic** with:
 
@@ -189,7 +189,7 @@ The application follows a **modern, professional aesthetic** with:
 - **Visual Hierarchy**: Clear distinction between topics, subtopics, and questions
 - **Progress Visualization**: Circular progress indicators and linear progress bars
 
-## 🔧 API Integration
+##  API Integration
 
 The app includes a service layer (`sheetApi.ts`) with:
 
