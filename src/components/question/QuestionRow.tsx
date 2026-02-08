@@ -20,7 +20,7 @@ interface QuestionRowProps {
 
 interface QuestionFormData {
   title: string;
-  difficulty: 'Easy' | 'Medium' | 'Hard';
+  difficulty: 'Easy' | 'Medium' | 'Hard'|'Basic';
   link: string;
   videoLink: string;
 }
