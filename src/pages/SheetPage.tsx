@@ -25,13 +25,14 @@ import { Modal } from '../components/common/Modal';
 import { Input } from '../components/common/Input';
 import { useForm } from 'react-hook-form';
 import { SubTopic } from '../types';
+import codolio from "../assets/codolio.png"; 
+
+
 
 interface TopicFormData {
   title: string;
   description: string;
 }
-
-
 
 export const SheetPage: React.FC = () => {
   const dispatch = useDispatch();
@@ -182,9 +183,15 @@ export const SheetPage: React.FC = () => {
             <div className="bg-[#111010] rounded-2xl shadow-3xl p-8 border-2 border-[#f57c06]">
               <div className="flex items-start justify-between mb-6">
                 <div className="flex items-start gap-4">
-                  <div className="p-3 bg-gradient-to-br from-[#f57c06] to-[#d96e05] rounded-xl shadow-lg">
-                    <BookOpen size={30} className="text-white border-2 border-bg-[#f57c06]" />
-                  </div>
+                  {/* <div className="w-30 rounded-xl shadow-lg"> */}
+                    {/* * <BookOpen size={30} className="text-white border-2 border-bg-[#f57c06]" /> */}
+                    <img 
+        src={codolio} 
+        alt="Codolio" 
+        className="w-30 h-10 " 
+      />
+                  {/* </div>  */}
+      
                   <div>
 
                     {/* logo design */}
